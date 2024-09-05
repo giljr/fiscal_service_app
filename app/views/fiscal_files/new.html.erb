@@ -1,0 +1,12 @@
+<h1>Upload Fiscal File</h1>
+
+<%= form_with url: fiscal_files_path, local: true, multipart: true do |form| %>
+  <div class="field">
+    <%= form.label :file, "Choose a fiscal file (CSV)" %>
+    <%= form.file_field :file %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Upload File" %>
+  </div>
+<% end %>
