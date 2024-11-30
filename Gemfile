@@ -52,7 +52,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'capybara', '~> 3.36.0'  # Try a slightly older version
+  gem 'capybara', '~> 3.40.0'  # Try a slightly older version
 
   gem 'xpath', '~> 3.2.0'
   gem "selenium-webdriver"
